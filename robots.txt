@@ -1,1 +1,1 @@
-Sitemap: https://fastpages.fast.ai/sitemap.xml
+Sitemap: https://tadtenacious.github.io/tenacious-blog/sitemap.xml
