@@ -1,1 +1,1 @@
-Sitemap: https://tadtenacious.github.io/tenacious-blog/sitemap.xml
+Sitemap: /sitemap.xml
