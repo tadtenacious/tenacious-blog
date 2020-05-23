@@ -179,7 +179,8 @@ window.onload = wrap_img;
 </ul>
 <p><img src="/tenacious-blog/images/copied_from_nb/images/bq-projects.png" alt="bq-proj" /></p>
 <ul>
-<li>In the bottom pane on the right-hand side, click <img src="images/create_ds.png" alt="create_dataset" /></li>
+<li>In the bottom pane on the right-hand side, click 
+<img src="/tenacious-blog/images/copied_from_nb/images/create_ds.png" alt="create_dataset" /></li>
 <li>Name your dataset, "timeseries". Leave all other defaults and select "Create dataset" at the bottom of the screen.
 <img src="/tenacious-blog/images/copied_from_nb/images/name-dataset.png" alt="name-dataset" /><ul>
 <li><blockquote><p>Note: Note that Data location is important if you want to interact with other datasets and or projects. BigQuery requires that they be in the same location. This is outside the scope of this post, but may be important to note in future projcets.</p>
@@ -191,8 +192,10 @@ window.onload = wrap_img;
 </ul>
 <p><img src="/tenacious-blog/images/copied_from_nb/images/show-dataset.png" alt="show-dataset" /></p>
 <h3 id="Step-3.-Upload-the-AirPassengers-csv-to-a-BigQuery-table.">Step 3. Upload the AirPassengers csv to a BigQuery table.<a class="anchor-link" href="#Step-3.-Upload-the-AirPassengers-csv-to-a-BigQuery-table."> </a></h3><ul>
-<li>First, click on the dataset timeseries that you created in the above step and select <img src="images/create-table.png" alt="create-table" /></li>
-<li>Select Upload from the "Create table from:" dropdown, and browse to select the AirPassengers.csv (also located at link here). Make sure your project and dataset are correct. Name the table raw_airpassengers. Check Auto detect under Schema. Leave all other defualts and click Create table <img src="images/upload-table.png" alt="upload-table" /></li>
+<li>First, click on the dataset timeseries that you created in the above step and select 
+<img src="/tenacious-blog/images/copied_from_nb/images/create-table.png" alt="create-table" /></li>
+<li>Select Upload from the "Create table from:" dropdown, and browse to select the AirPassengers.csv (also located at link here). Make sure your project and dataset are correct. Name the table raw_airpassengers. Check Auto detect under Schema. Leave all other defualts and click Create table 
+<img src="/tenacious-blog/images/copied_from_nb/images/upload-table.png" alt="upload-table" /></li>
 <li>Now we are ready to start coding.</li>
 </ul>
 
@@ -202,8 +205,10 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Step-4.-Clean-the-data">Step 4. Clean the data<a class="anchor-link" href="#Step-4.-Clean-the-data"> </a></h3><ul>
-<li>Back in the left-hand pane, you should be able to click on your dataset and see the raw_airpassengers table below it. Click on the table and you will be able to see the table's Schema. <img src="images/raw-schema.png" alt="raw-schema" /></li>
-<li>If you click Preview, you can see the data and why the <code>Month</code> column has the <code>String</code> datatype. <img src="images/raw-data.png" alt="raw-data" /></li>
+<li>Back in the left-hand pane, you should be able to click on your dataset and see the raw_airpassengers table below it. Click on the table and you will be able to see the table's Schema. 
+<img src="/tenacious-blog/images/copied_from_nb/images/raw-schema.png" alt="raw-schema" /></li>
+<li>If you click Preview, you can see the data and why the <code>Month</code> column has the <code>String</code> datatype. 
+<img src="/tenacious-blog/images/copied_from_nb/images/raw-data.png" alt="raw-data" /></li>
 </ul>
 
 </div>
@@ -212,7 +217,8 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Trying to simply cast the Month column as a date will result in an error <img src="images/invalid-date.png" alt="invalide-date" /></li>
+<li>Trying to simply cast the Month column as a date will result in an error 
+<img src="/tenacious-blog/images/copied_from_nb/images/invalid-date.png" alt="invalide-date" /></li>
 </ul>
 
 </div>
