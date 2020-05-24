@@ -1,4 +1,4 @@
-Month,Passengers,trend,detrend,avg_seasonality,random_noise,recontructed
+Month,Passengers,trend,detrend,avg_seasonality,random_noise,reconstructed
 1949-01-01,112,,,,,
 1949-02-01,118,,,,,
 1949-03-01,132,,,,,
